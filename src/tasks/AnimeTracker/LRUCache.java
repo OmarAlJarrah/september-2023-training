@@ -107,6 +107,20 @@ public class LRUCache<K, V> {
         return entryQueue.peek();
     }
 
+    /**
+     * @brief Checks if the MultiMapTree contains the specified key-value pair.
+     *
+     * This method is used internally within the LRUCache class to check if the MultiMapTree contains
+     * the specified key-value pair.
+     *
+     * @param key   The key to check.
+     * @param value The value to check.
+     * @return True if the key-value pair is found; otherwise, false.
+     */
+    public boolean contains(K key, V value) {
+        return baseStructure.contains(key, value);
+    }
+
     private void makeSpace() {
         if (size() == capacity) {
             baseStructure.remove(entryQueue.peek().getKey(), entryQueue.peek().getValue());
