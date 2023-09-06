@@ -1,8 +1,4 @@
-package tasks.AnimeTracker;
-import java.util.*;
-
 /**
- *
  * @file MultiMapTree.java
  * @brief A MultiMapTree class that associates multiple values with a single key.
  *
@@ -11,8 +7,18 @@ import java.util.*;
  * @tparam K The type of keys.
  * @tparam V The type of values.
  */
+package tasks.AnimeTracker;
+import java.util.*;
+
+/**
+ * @class MultiMapTree
+ * @brief This class represents a MultiMapTree that associates multiple values with a single key.
+ * @tparam K The type of keys.
+ * @tparam V The type of values.
+ */
 public class MultiMapTree<K, V> {
     private Map<K, LinkedHashSet<V>> map;
+    private int size;
 
     /**
      * @brief Initializes a new MultiMapTree.
@@ -28,13 +34,16 @@ public class MultiMapTree<K, V> {
      * @param value The value to insert.
      */
     public void insert(K key, V value) {
-        LinkedHashSet<V> temp = map.get(key);
-        if (temp != null) {
-            temp.add(value);
-        } else {
-            temp = new LinkedHashSet<>();
-            temp.add(value);
-            map.put(key, temp);
+        if(key != null){
+            if(contains(key)){
+                map.get(key).add(value);
+            }
+            else {
+                LinkedHashSet<V> temp = new LinkedHashSet<>();
+                temp.add(value);
+                map.put(key, temp);
+            }
+            ++size;
         }
     }
 
@@ -44,7 +53,8 @@ public class MultiMapTree<K, V> {
      * @param key The key to remove along with its associated values.
      */
     public void remove(K key) {
-        if (key != null) {
+        if (key != null && contains(key)) {
+            size -= map.get(key).size();
             map.remove(key);
         }
     }
@@ -56,7 +66,8 @@ public class MultiMapTree<K, V> {
      * @param value The value to remove.
      */
     public void remove(K key, V value) {
-        if (key != null) {
+        if (key != null && contains(key, value)) {
+            --size;
             map.get(key).remove(value);
         }
     }
@@ -82,7 +93,7 @@ public class MultiMapTree<K, V> {
      * @return True if the key-value pair is found; otherwise, false.
      */
     public boolean contains(K key, V value) {
-        if (containsKey(key)) {
+        if (contains(key)) {
             return map.get(key).contains(value);
         }
         return false;
@@ -94,7 +105,7 @@ public class MultiMapTree<K, V> {
      * @param key The key to check.
      * @return True if the key is found; otherwise, false.
      */
-    public boolean containsKey(K key) {
+    public boolean contains(K key) {
         if (key != null) {
             return map.containsKey(key);
         }
@@ -107,7 +118,7 @@ public class MultiMapTree<K, V> {
      * @return The number of key-value pairs.
      */
     public int size() {
-        return map.size();
+        return size;
     }
 
     /**
@@ -116,7 +127,7 @@ public class MultiMapTree<K, V> {
      * @return True if the MultiMapTree is empty; otherwise, false.
      */
     public boolean isEmpty() {
-        return map.isEmpty();
+        return size == 0;
     }
 
     /**
@@ -132,6 +143,7 @@ public class MultiMapTree<K, V> {
      * @brief Clears all data from the MultiMapTree.
      */
     public void clear() {
+        size = 0;
         map.clear();
     }
 
