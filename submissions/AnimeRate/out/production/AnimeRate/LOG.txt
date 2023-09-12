@@ -1,0 +1,13 @@
+2023-09-12 21:19:17 [ PROGRAM ] Start program.
+2023-09-12 21:19:17 [ PROGRAM ] ( MESSAGE ) Enter an anime rate or name: 
+2023-09-12 21:19:24 [ USER ] ( Enter Anime Name ) One Pi##ece
+2023-09-12 21:19:24 [ PROGRAM ] ( Print Anime Rate ) 10.0
+2023-09-12 21:19:24 [ PROGRAM ] ( MESSAGE ) Enter an anime rate or name: 
+2023-09-12 21:20:14 [ PROGRAM ] Start program.
+2023-09-12 21:20:14 [ PROGRAM ] ( MESSAGE ) Enter an anime rate or name: 
+2023-09-12 21:20:20 [ USER ] ( Enter Anime Name ) One Piec##e
+2023-09-12 21:20:20 [ PROGRAM ] ( Print Anime Rate ) 10.0
+2023-09-12 21:20:20 [ PROGRAM ] ( MESSAGE ) Enter an anime rate or name: 
+2023-09-12 21:20:29 [ USER ] ( Enter Anime Name ) man of cultures
+2023-09-12 21:20:29 [ PROGRAM ] ( MESSAGE ) There is no such anime, If you want to add this anime please enter its rate.
+2023-09-12 21:20:29 [ PROGRAM ] ( MESSAGE ) Enter a floating number between (0 - 10): 

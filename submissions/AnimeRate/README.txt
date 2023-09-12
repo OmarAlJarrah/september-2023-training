@@ -1,0 +1,1 @@
+src -> global.Constants.java -> edit ANIME_FILE_PATH & LOG_FILE_PATH
