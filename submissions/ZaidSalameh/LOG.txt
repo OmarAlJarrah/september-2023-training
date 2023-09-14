@@ -1,0 +1,56 @@
+Enter a command: 
+7
+One Piece 10
+Death Note 10
+Code Geass 10
+Clannad After Story 9
+Deagon Ball Z 7
+Vinland Saga 10
+Demon Slayer 9
+Attack on Titans 7
+Prison School 10
+Great Teacher Onizuka 10
+Golden Boy 7
+Eighty Six 10
+Grimgar of Fantasy & Ash 10
+Mushoku Tensei 10
+Yona of the Dawn 8
+Higehiro 7
+Just Because! 7
+Neon Genisis Evangelion 7
+Fullmetal Alchemist Brotherhood 10
+One Piece Red 9
+No Game No Life 7
+Enter a command: 
+5
+One Piece 10
+Death Note 10
+Code Geass 10
+Clannad After Story 9
+Deagon Ball Z 7
+Vinland Saga 10
+Demon Slayer 9
+Attack on Titans 7
+Prison School 10
+Our Last Crusade or End of A New World 6
+Bleach 6
+Great Teacher Onizuka 10
+Golden Boy 7
+Eighty Six 10
+Grimgar of Fantasy & Ash 10
+Mushoku Tensei 10
+Yona of the Dawn 8
+Higehiro 7
+Domestic Girlfriend 6
+Just Because! 7
+Neon Genisis Evangelion 7
+Fullmetal Alchemist Brotherhood 10
+One Piece Red 9
+Shimoneta 5
+Fate 6
+No Game No Life 7
+Enter a command: 
+Naruto
+Naruto 2
+Enter a command: 
+man of culture
