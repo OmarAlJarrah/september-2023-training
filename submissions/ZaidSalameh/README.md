@@ -27,7 +27,7 @@ This Java-based application allows users to manage anime ratings. It reads anime
 
 ## Requirements
 
-- Java 8 or above
+- Java installed
 - A text file with anime ratings (e.g., `sample-input.txt`)
 
 ---
