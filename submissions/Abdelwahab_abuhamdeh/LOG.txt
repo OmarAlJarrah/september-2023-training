@@ -1,0 +1,17 @@
+User input: {""}, User output: {Anime Doesn't Exist!} - 09/09/2023 22:42:19
+User input: {"onePiece"}, User output: {10.0} - 09/09/2023 22:42:24
+User input: {"hello"}, User output: {Anime Doesn't Exist!} - 09/09/2023 22:42:31
+User input: {"hell yea"}, User output: {Anime Doesn't Exist!} - 09/09/2023 22:42:33
+User input: {"10"}, User output: {Fullmetal Alchemist Brotherhood} - 09/09/2023 22:42:43
+User input: {"10.0000"}, User output: {Fullmetal Alchemist Brotherhood} - 09/09/2023 22:42:47
+User input: {"10.111"}, User output: {Rating Out Of Range!} - 09/09/2023 22:42:54
+User input: {"9.1"}, User output: {Fullmetal Alchemist Brotherhood} - 09/09/2023 22:42:58
+User input: {"hello"}, User output: {Anime Doesn't Exist!} - 09/09/2023 22:44:52
+User input: {"9"}, User output: {One Piece Red} - 09/09/2023 22:44:54
+User input: {"9.2"}, User output: {Fullmetal Alchemist Brotherhood} - 09/09/2023 22:44:56
+User input: {"5.9"}, User output: {Fate} - 09/09/2023 22:45:06
+User input: {"3.3"}, User output: {Your Lie in April} - 09/09/2023 22:45:10
+User input: {"man of a culture"} At 09/09/2023 22:45:18
+User input: {"4"}, User output: {Your Lie in April} - 09/09/2023 22:52:48
+User input: {"3.9"}, User output: {Your Lie in April} - 09/09/2023 22:52:53
+User input: {"YouRLieIN     April"}, User output: {4.0} - 09/09/2023 22:53:08
